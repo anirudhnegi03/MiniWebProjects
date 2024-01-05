@@ -1,0 +1,159 @@
+*{
+    
+    margin: 0px;
+}
+
+body{
+    background-image: url(Images/bgpic3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.fd{
+    
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+    
+}
+.socials{
+    opacity: 50px;
+    background-color: rgba(55, 167, 241, 0.5);
+    margin-top: 90px;
+    margin-left: 80px;   
+    margin-right: 250px; 
+    margin-bottom: 50px;
+    width: 700px;
+    overflow: hidden;
+}
+.socials:hover{
+    background-color: rgba(0, 183, 255, 0.534);
+}
+.profile{
+    
+    background-color: rgba(55, 167, 241, 0.5);
+    max-width: 750px;
+    
+    overflow: hidden;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    
+}
+.profile:hover{
+    background-color: rgba(0, 183, 255, 0.534);
+}
+.sd{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    row-gap: 150px;
+    margin-bottom: 200px;
+    
+}
+
+
+.ppic{
+   
+    
+    
+    width: 40%;
+    margin-left: 230px;
+    margin-top: 40px;
+
+}
+.name{
+    
+    font-family: Rubik Doodle Shadow;;
+    font-size:70px;
+    color: #ffd700; /* Yellow */
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 50px;
+    margin-left: 150px;
+}
+.soc{
+    font-size: 100px;
+    
+    
+}
+a i {
+    text-decoration: none;
+    color: wheat; /* Orange */
+
+    ;
+    
+  }
+
+.msg{
+    font-family: Rubik Doodle Shadow;
+    font-size: 65px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 42px;
+    color: #ffd700; /* Yellow */
+
+    font-weight:bolder;
+}
+
+.spo:hover{
+    color: rgb(82, 255, 82);
+    
+}
+.li:hover{
+    color: rgb(23, 110, 224);
+}
+.gh:hover{
+    color: black;
+}
+.x:hover{
+    color: black;
+}
+
+
+.proj{
+    background-color: rgba(170, 218, 230, 0.199);
+    border: solid black;
+    border-width: 8px;
+    width: 320px;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+    
+}
+
+.proj:hover{
+    background-color: rgba(253, 253, 253, 0.5);
+    cursor: pointer;
+}
+
+.pim{
+    border-bottom: solid black;
+    border-width: 8px;
+    height: 180px;
+    background-color: rgb(22, 150, 236);
+}
+
+.pname{
+    font-family: Oswald;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
