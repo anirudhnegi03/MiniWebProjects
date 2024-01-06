@@ -58,6 +58,7 @@ function displayWeatherInfo(data){
     card.appendChild(tempDisplay);
     card.appendChild(humidityDisplay);
     card.appendChild(weatherEmoji);
+    card.appendChild(descDisplay);
 
 }
 function getWeatherEmoji(weatherId){
