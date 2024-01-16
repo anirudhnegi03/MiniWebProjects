@@ -51,6 +51,9 @@ footer{
     width: 100%;
 
 }
+.container{
+    margin-bottom:10px;
+}
 
 .socialIcons{
     display: flex;
