@@ -30,6 +30,8 @@ body{
     height: auto;
 }
 .fs{
+    left:0;
+    right:0;
     border-bottom:5px solid rgb(4, 64, 230);
     font-size: 2rem;
     color: white;
