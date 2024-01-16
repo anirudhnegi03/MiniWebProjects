@@ -1,0 +1,25 @@
+#cnt{
+    font-size: 10em;
+    text-align: center;
+    display: block;
+}
+.myBtn{
+    text-align: center;
+
+}
+.btn{
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: rgb(95, 199, 248);
+    transition: background-color 0.25s;
+    cursor: pointer;
+    font-family: Helvetica;
+    border-radius: 10px;
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(20, 175, 247);
+}
+*{
+    background-color: yellow;
+}

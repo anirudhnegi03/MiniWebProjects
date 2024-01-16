@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    font-size: 6rem;
+    border-radius: 80px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgba(9, 136, 240, 0.904);
+    border: solid;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+button:hover{
+    background-color: rgba(92, 171, 235, 0.973);
+}
+button:active{
+    background-color: rgba(145, 193, 233, 0.904);
+}
+#resultDisplay{
+    margin: 15px;
+    font-size: 5rem;
+}
+
+.txt{
+    font-size: 2rem;
+}
+
+.wres{
+    color: rgb(20, 247, 20);
+}
+.lres{
+    color: red;
+}
